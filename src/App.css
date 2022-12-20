@@ -1,0 +1,237 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+/* .log_form {
+  color: white;
+}
+.loginform {
+  width: 100%;
+  height: 100vh;
+  background-color: #111e66;
+  
+}
+.log_form h3 {
+  padding-top: 3rem;
+  padding-bottom: 0.7rem;
+} */
+
+@media screen and (min-width: 350px) {
+  .log_form {
+    color: white;
+  }
+  .loginform {
+    width: 100%;
+    height: 100vh;
+    background-color: #111e66;
+    
+  }
+  .log_form h3 {
+    padding-top: 3rem;
+    padding-bottom: 0.7rem;
+  }
+  
+  #log_container {
+    background-color: #0f228a;
+    width:29%;
+    height: 42.5vh;
+    margin: 8vh 0vh 0vh 79vh;
+    position: absolute;
+    border-radius: 1vh;
+  }
+}
+
+.log_container div:first-child input {
+  width: 60%;
+  height: 5.5vh;
+  background-color: #1128a6;
+  border: none;
+  outline: none;
+  color: rgb(219, 218, 218);
+  margin-top: 8vh;
+  border-radius: 0.7vh;
+  padding-left: 2.5vh;
+}
+.log_container div:nth-child(2) input {
+  width: 60%;
+  height: 5.5vh;
+  background-color: #1128a6;
+  border: none;
+  outline: none;
+  color: rgb(219, 218, 218);
+  margin-top: 3vh;
+  border-radius: 0.7vh;
+  padding-left: 2.5vh;
+}
+.log_container button:nth-child(3) {
+  width: 63%;
+  height: 5.5vh;
+  background-color: #91913a;
+  border: none;
+  outline: none;
+  color:#1128a6;
+  margin-top: 3vh;
+  border-radius: 0.7vh;
+  cursor:pointer;
+}
+.reg_login {
+  margin-top: 15.5rem;
+  position: relative;
+  margin-left:0rem;
+}
+.reg_login button {
+  background: none;
+  color: red;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  z-index: 2;
+}
+
+/* Register page css*/
+
+.reg_container {
+  background-color: #111e66;
+  height: 100vh;
+}
+
+.reg_form {
+  color: white;
+}
+.reg_form h3 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.7rem;
+}
+
+@media screen and (min-width: 350px) {
+  .reg_form {
+    background-color: #0f228a;
+    width: 30%;
+    height: 88vh;
+    margin: 6vh 0vh 0vh 76vh;
+    position: absolute;
+    border-radius: 1vh;
+  }
+}
+
+.form-group div:nth-child(1) input {
+  width: 60%;
+  height: 5.5vh;
+  background-color: #1128a6;
+  border: none;
+  outline: none;
+  color: rgb(219, 218, 218);
+  margin-top: 3vh;
+  border-radius: 0.7vh;
+  padding-left: 2.5vh;
+}
+.form-group div:nth-child(2) input {
+  width: 60%;
+  height: 5.5vh;
+  background-color: #1128a6;
+  border: none;
+  outline: none;
+  color: rgb(219, 218, 218);
+  margin-top: 3vh;
+  border-radius: 0.7vh;
+  padding-left: 2.5vh;
+}
+.form-group div:nth-child(3) input {
+  width: 60%;
+  height: 5.7vh;
+  background-color: #1128a6;
+  border: none;
+  outline: none;
+  color: rgb(219, 218, 218);
+  margin-top: 3vh;
+  border-radius: 0.7vh;
+  padding-left: 2.5vh;
+}
+.form-group div:nth-child(4) input {
+  width: 60%;
+  height: 5.5vh;
+  background-color: #1128a6;
+  border: none;
+  outline: none;
+  color: rgb(219, 218, 218);
+  margin-top: 3vh;
+  border-radius: 0.7vh;
+  padding-left: 2.5vh;
+}
+.form-group div:nth-child(5) input {
+  width: 60%;
+  height: 5.5vh;
+  background-color: #1128a6;
+  border: none;
+  outline: none;
+  color: rgb(219, 218, 218);
+  margin-top: 3vh;
+  border-radius: 0.7vh;
+  padding-left: 2.5vh;
+}
+.form-group div:nth-child(6) input {
+  width: 60%;
+  height: 5.5vh;
+  background-color: #1128a6;
+  border: none;
+  outline: none;
+  color: rgb(219, 218, 218);
+  margin-top: 3vh;
+  border-radius: 0.7vh;
+  padding-left: 2.5vh;
+}
+.form-group div:nth-child(7) input {
+  width: 60%;
+  height: 5.5vh;
+  background-color: #1128a6;
+  border: none;
+  outline: none;
+  color: rgb(219, 218, 218);
+  margin-top: 3vh;
+  border-radius: 0.7vh;
+  padding-left: 2.5vh;
+}
+.form-group button:nth-child(8) {
+  width: 60%;
+  height: 5.5vh;
+  background-color: #91913a;
+  border: none;
+  outline: none;
+  color: #1128a6;
+  font-weight: bold;
+  margin-top: 3vh;
+  border-radius: 0.7vh;
+  cursor: pointer;
+}
+.form-group p:nth-child(9) button {
+  margin-top: 2.5vh;
+  color: red;
+  font-size: 15px;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  text-decoration: underline;
+}
+.alert {
+  margin-top: 1.6rem;
+  height: 2rem;
+  position: absolute;
+  margin-left: 33.4rem;
+  background: none;
+}
+.reg_alert {
+  width: 50%;
+  height: 2rem;
+  margin: 0.5rem 0rem 0rem 5rem;
+  position: absolute;
+}
+
+/* Home */
+
+table{color:white}
